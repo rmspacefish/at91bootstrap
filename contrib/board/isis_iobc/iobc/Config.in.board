@@ -1,5 +1,5 @@
-config	AT91SAM9G20EK
-	bool "at91sam9g20ek"
+config	IOBC
+	bool "iobc"
 	select AT91SAM9G20
 	select SDRAM
 	select ALLOW_DATAFLASH
@@ -14,6 +14,6 @@ config	AT91SAM9G20EK
 	select ALLOW_NANDFLASH_RECOVERY
 	select SUPPORT_BUS_SPEED_133MHZ
 	help
-	    Use the AT91SAM9G20EK Development board
+	    Use the iOBC board
 
 	    
