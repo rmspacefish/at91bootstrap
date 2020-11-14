@@ -15,3 +15,7 @@ binaries
 tags
 *.swp
 *.pyc
+
+.settings
+.project
+.cproject
