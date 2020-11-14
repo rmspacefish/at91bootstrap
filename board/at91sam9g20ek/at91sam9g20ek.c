@@ -286,3 +286,6 @@ void nandflash_hw_init(void)
 }
 #endif /* #ifdef CONFIG_NANDFLASH */
 
+void norflash_hw_init(void) {
+
+}
