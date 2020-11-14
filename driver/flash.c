@@ -72,6 +72,9 @@ int load_norflash(struct image_info *image)
 		return -1;
 
 	image->length = length;
+#elif defined(CONFIG_IOBC_IMAGE)
+	// TODO: Read image length from sixth ARM vector
+
 #endif
 
 	dbg_info("FLASH: copy %x bytes from %x to %x\n",
